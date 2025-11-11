@@ -1,0 +1,18 @@
+{
+  "name": "ekox-bot",
+  "version": "1.2.0",
+  "description": "Ekox Auto Bot - with Deposit, Withdraw, Claim",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "erdrop",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0",
+    "readline": "^1.3.0"
+  }
+}
