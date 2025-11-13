@@ -28,7 +28,7 @@ const logger = {
   banner:  () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log(`-----------------------------------------`);
-    console.log(`   Ekox Auto Bot - v2     `);
+    console.log(`   Ekox Auto Bot - v2    `);
     console.log(`-----------------------------------------${colors.reset}`);
     console.log();
   }
@@ -417,4 +417,5 @@ async function doDailyRun(wallets) {
   logger.error(e?.message || String(e));
   rl.close();
   process.exit(1);
+
 });
